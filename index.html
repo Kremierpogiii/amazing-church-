@@ -1,0 +1,382 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=yes">
+    <title>Amazing Church Philippines | Find Purpose. Build Faith. Experience Community.</title>
+
+    <!-- Facebook SDK Integration -->
+    <script>
+        window.fbAsyncInit = function() {
+            FB.init({
+                appId: 'your-app-id',
+                autoLogAppEvents: true,
+                xfbml: true,
+                version: 'v18.0'
+            });
+        };
+    </script>
+    <script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_US/sdk.js"></script>
+
+    <!-- Font Awesome & Google Fonts -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+    <!-- Main CSS -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <div class="logo">
+                <img src="assets\logoacp.png" alt="Amazing Church Philippines Logo" class="logo-img">
+            </div>
+            <ul class="nav-links" id="navLinks">
+                <li><a href="#home" class="active">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#pastor">Lead Pastor</a></li>
+                <li><a href="#sermons">Sermons</a></li>
+                <li><a href="#events">Events</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <div class="mobile-menu" id="mobileMenu">
+                <i class="fas fa-bars"></i>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1>We win souls and make them disciples of Jesus!</h1>
+            <p>Sunday Service Schedule: 10:00 AM - Online and Onsite. A church where you grow spiritually, connect deeply, and live with purpose.</p>
+            <div class="btn-group">
+                <a href="#services" class="btn btn-primary">Join Us This Sunday</a>
+                <a href="https://www.youtube.com/@amazingchurchph" target="_blank" class="btn btn-secondary">Watch Online</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Service Info Bar -->
+    <div class="service-bar" id="services">
+        <div class="container">
+            <div class="service-grid">
+                <div class="service-item">
+                    <i class="fas fa-clock"></i>
+                    <h3>Service Times</h3>
+                    <p>Sunday 10:00 AM<br>Online & Onsite</p>
+                </div>
+                <div class="service-item">
+                    <i class="fas fa-map-marker-alt"></i>
+                    <h3>Location</h3>
+                    <p>Pasig City,<br>Metro Manila, Philippines</p>
+                </div>
+                <div class="service-item">
+                    <i class="fas fa-calendar-alt"></i>
+                    <h3>Plan Your Visit</h3>
+                    <p><a href="#contact" class="btn-outline-small">Get Directions</a></p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- About Preview -->
+    <section id="about">
+        <div class="container">
+            <div class="section-title">
+                <h2>Our Community</h2>
+            </div>
+            <div class="about-preview">
+                <div class="about-preview-content">
+                    <h3>We are passionate about helping people know God, grow in faith, and live with purpose.</h3>
+                    <p>Welcome to Amazing Church Philippines! We are a community dedicated to winning souls and making disciples of Jesus Christ. Founded with a vision to reach the lost and nurture believers, we've grown into a vibrant family of faith in Pasig City and beyond.</p>
+                    <p>Our heart is to create an environment where you can encounter God, build authentic relationships, and discover your purpose. Whether you're exploring faith for the first time or have walked with God for years, you'll find a place here.</p>
+                    <div class="btn-group" style="justify-content: flex-start;">
+                        <a href="https://www.facebook.com/amazingchurchphilippines/" target="_blank" class="btn btn-outline">Follow Us on Facebook</a>
+                    </div>
+                </div>
+                <div class="about-preview-image">
+                    <img src="assets\amazing community.jpg" alt="Amazing Church Community">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Lead Pastor Section -->
+    <section id="pastor" class="pastor-section">
+        <div class="container">
+            <div class="pastor-container">
+                <div class="pastor-image">
+                    <div class="pastor-badge">Lead Pastor</div>
+                    <!-- Replace with your pastor's actual photo -->
+                    <img src="assets\pastor.png" alt="Lead Pastor - Amazing Church Philippines">
+                </div>
+                <div class="pastor-content">
+                    <div class="subtitle">Shepherd & Teacher</div>
+                    <h2>Meet Our <span>Lead Pastor</span></h2>
+                    <div class="pastor-title">A Heart for Souls, A Vision for Disciples</div>
+                    <div class="pastor-bio">
+                        <p>With over 15 years of ministry experience, our Lead Pastor has dedicated his life to winning souls and making disciples of Jesus Christ. His passionate teaching and compassionate leadership have touched thousands of lives across the Philippines and beyond.</p>
+                        <p>Ordained in 2010, he founded Amazing Church Philippines with a small group of 12 believers. Today, our church family has grown to hundreds, with multiple outreach programs and a thriving online community.</p>
+                    </div>
+                    <div class="pastor-quote">
+                        <i class="fas fa-quote-left"></i>
+                        <p>"Our mission is simple: to help people encounter Jesus, grow in their faith, and discover their God-given purpose. Every soul matters, every disciple counts."</p>
+                    </div>
+                    <div class="pastor-stats">
+                        <div class="stat-item"><div class="stat-number">15+</div><div class="stat-label">Years Ministry</div></div>
+                        <div class="stat-item"><div class="stat-number">1K+</div><div class="stat-label">Souls Won</div></div>
+                        <div class="stat-item"><div class="stat-number">100+</div><div class="stat-label">Disciples Made</div></div>
+                    </div>
+                    <div class="pastor-social">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-youtube"></i></a>
+                        <a href="#"><i class="fas fa-envelope"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ========== FIXED SERMONS SECTION ========== -->
+    <section id="sermons" style="background: var(--soft-gray);">
+        <div class="container">
+            <div class="section-title">
+                <h2>Latest Sermons</h2>
+            </div>
+            <div class="sermon-grid">
+                <!-- Sermon 1 - Replace VIDEO_ID_1 with actual YouTube video ID -->
+                <div class="sermon-card">
+                    <div class="sermon-video">
+                        <iframe src="https://www.youtube.com/live/VIDEO_ID_1?si=your_session_id" 
+                                title="Winning Souls & Making Disciples"
+                                frameborder="0"
+                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                allowfullscreen>
+                        </iframe>
+                    </div>
+                    <div class="sermon-info">
+                        <h3>Winning Souls & Making Disciples</h3>
+                        <p>Join us every Sunday at 10:00 AM for powerful messages that transform lives.</p>
+                        <a href="https://www.youtube.com/@amazingchurchph" target="_blank" style="color: var(--gold-primary); text-decoration: none; font-weight: 600;">
+                            Watch More <i class="fas fa-arrow-right"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Sermon 2 - Replace VIDEO_ID_2 with actual YouTube video ID -->
+                <div class="sermon-card">
+                    <div class="sermon-video">
+                        <iframe src="https://www.youtube.com/live/QYUIkA8yqvs?si=yry7ZjvlSymiUD4F" 
+                                title="Living with Purpose"
+                                frameborder="0"
+                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                allowfullscreen>
+                        </iframe>
+                    </div>
+                    <div class="sermon-info">
+                        <h3>Occupy To Expand</h3>
+                        <p>Join us every Sunday at 10:00 AM for powerful messages that transform lives.</p>
+                        <a href="https://www.youtube.com/@amazingchurchph" target="_blank" style="color: var(--gold-primary); text-decoration: none; font-weight: 600;">
+                            Watch Now <i class="fas fa-arrow-right"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Sermon 3 - Replace VIDEO_ID_3 with actual YouTube video ID -->
+                <div class="sermon-card">
+                    <div class="sermon-video">
+                        <iframe src="https://www.youtube.com/live/lWII8T5teyU?si=5VFoyUwGsstfm3BU" 
+                                title="The Power of Community"
+                                frameborder="0"
+                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                allowfullscreen>
+                        </iframe>
+                    </div>
+                    <div class="sermon-info">
+                        <h3>Overflow</h3>
+                        <p>Join us every Sunday at 10:00 AM for powerful messages that transform lives..</p>
+                        <a href="https://www.youtube.com/@amazingchurchph" target="_blank" style="color: var(--gold-primary); text-decoration: none; font-weight: 600;">
+                            Watch Now <i class="fas fa-arrow-right"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div style="text-align: center; margin-top: 4rem;">
+                <a href="https://www.youtube.com/@amazingchurchph" target="_blank" class="btn btn-primary">View All Sermons on YouTube</a>
+            </div>
+        </div>
+    </section>
+    <!-- ========== END OF FIXED SERMONS SECTION ========== -->
+
+    <!-- Community Photos Section -->
+    <section>
+        <div class="container">
+            <div class="section-title"><h2>Life at Amazing Church</h2></div>
+            <div class="community-grid">
+                <div class="community-item"><img src="assets\sunday worship.jpg" alt="Sunday Worship"><div class="community-overlay"><h3>Sunday Worship</h3><p>10:00 AM - Experience God's presence</p></div></div>
+                <div class="community-item"><img src="assets\fellowship.jpg" alt="Fellowship"><div class="community-overlay"><h3>Community Fellowship</h3><p>Building lasting friendships</p></div></div>
+                <div class="community-item"><img src="assets\youth.jpg" alt="Youth"><div class="community-overlay"><h3>Youth Ministry</h3><p>Next generation faith</p></div></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Banner -->
+    <div class="gradient-bg" style="padding: 5rem 0; text-align: center;">
+        <div class="container">
+            <h2>You don't have to do life alone.</h2>
+            <p>Be part of the family. Join us this Sunday and experience community like never before.</p>
+            <div class="btn-group">
+                <a href="#contact" class="btn btn-primary">Plan Your Visit</a>
+                <a href="https://www.facebook.com/amazingchurchphilippines/" target="_blank" class="btn btn-secondary">Follow on Facebook</a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Funnel Integration Section -->
+    <section id="funnel" class="funnel-section">
+        <div class="container">
+            <div class="section-title"><h2>Start Your Journey</h2><p>Get access to free resources and join our community</p></div>
+            <div class="funnel-grid">
+                <div class="funnel-card">
+                    <i class="fas fa-bible"></i>
+                    <h3>Daily Devotional</h3>
+                    <p>Free 21-day devotional to jumpstart your faith journey</p>
+                    <form class="funnel-form" data-resource="21 Days Devotional">
+                        <input type="email" placeholder="Your Email" required>
+                        <input type="text" placeholder="Your Name" required>
+                        <button type="submit" class="btn btn-primary">Get Free Devotional</button>
+                    </form>
+                </div>
+                <div class="funnel-card">
+                    <i class="fas fa-users"></i>
+                    <h3>Join Our Community</h3>
+                    <p>Connect with others in our private Facebook group</p>
+                    <a href="https://www.facebook.com/amazingchurchphilippines/" target="_blank" class="btn btn-primary">Join Now</a>
+                </div>
+                <div class="funnel-card">
+                    <i class="fas fa-video"></i>
+                    <h3>Weekly Updates</h3>
+                    <p>Get sermon notes and event updates straight to your inbox</p>
+                    <form class="funnel-form" data-resource="Weekly Updates">
+                        <input type="email" placeholder="Your Email" required>
+                        <button type="submit" class="btn btn-primary">Subscribe</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Events Section -->
+    <section id="events" style="background: var(--soft-gray);">
+        <div class="container">
+            <div class="section-title"><h2>Upcoming Events</h2></div>
+            <div class="events-grid">
+                <div class="event-card">
+                    <div class="event-date"><div class="day">Every</div><div class="month">Sunday</div></div>
+                    <div class="event-details"><h3>Sunday Worship Service</h3><p><i class="fas fa-clock"></i> 10:00 AM - 12:00 PM</p><p><i class="fas fa-map-marker-alt"></i> Pasig City & Online</p></div>
+                    <a href="#" class="register-btn" data-event="Sunday Worship">Join Us</a>
+                </div>
+                <div class="event-card">
+                    <div class="event-date"><div class="day">Every</div><div class="month">Wednesday</div></div>
+                    <div class="event-details"><h3>Bible Study & Prayer Meeting</h3><p><i class="fas fa-clock"></i> 7:00 PM - 8:30 PM</p><p><i class="fas fa-map-marker-alt"></i> Online via Zoom</p></div>
+                    <a href="#" class="register-btn" data-event="Bible Study">Join Online</a>
+                </div>
+                <div class="event-card">
+                    <div class="event-date"><div class="day">Every</div><div class="month">Friday</div></div>
+                    <div class="event-details"><h3>Youth Fellowship</h3><p><i class="fas fa-clock"></i> 7:00 PM - 9:00 PM</p><p><i class="fas fa-map-marker-alt"></i> Church Fellowship Hall</p></div>
+                    <a href="#" class="register-btn" data-event="Youth Fellowship">Register</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Ministries Section -->
+    <section id="ministries">
+        <div class="container">
+            <div class="section-title"><h2>Find Where You Belong</h2></div>
+            <div class="ministries-grid">
+                <div class="ministry-card"><div class="ministry-icon"><i class="fas fa-child"></i></div><h3>Children's Ministry</h3><p>Nurturing faith in our youngest members.</p><a href="#" class="btn btn-outline">Learn More</a></div>
+                <div class="ministry-card"><div class="ministry-icon"><i class="fas fa-users"></i></div><h3>Youth Ministry</h3><p>Building faith, friendships, and leaders.</p><a href="#" class="btn btn-outline">Learn More</a></div>
+                <div class="ministry-card"><div class="ministry-icon"><i class="fas fa-heart"></i></div><h3>Worship Team</h3><p>Use your musical gifts to lead worship.</p><a href="#" class="btn btn-outline">Learn More</a></div>
+                <div class="ministry-card"><div class="ministry-icon"><i class="fas fa-hand-holding-heart"></i></div><h3>Outreach Ministry</h3><p>Serving our community with God's love.</p><a href="#" class="btn btn-outline">Learn More</a></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" style="background: var(--soft-gray);">
+        <div class="container">
+            <div class="section-title"><h2>Plan Your Visit</h2></div>
+            <div class="contact-grid">
+                <div class="contact-info">
+                    <h3>Get in Touch</h3>
+                    <div class="contact-item"><i class="fas fa-map-marker-alt"></i><div><h4>Address</h4><p>Pasig City, Metro Manila, Philippines</p></div></div>
+                    <div class="contact-item"><i class="fas fa-phone-alt"></i><div><h4>Phone</h4><p>+63 912 345 6789</p></div></div>
+                    <div class="contact-item"><i class="fas fa-envelope"></i><div><h4>Email</h4><p>hello@amazingchurch.ph</p></div></div>
+                    <div class="contact-item"><i class="fas fa-clock"></i><div><h4>Office Hours</h4><p>Tuesday - Friday: 9:00 AM - 5:00 PM<br>Saturday: 9:00 AM - 12:00 PM</p></div></div>
+                    <div class="social-links">
+                        <a href="https://www.facebook.com/amazingchurchphilippines/" target="_blank"><i class="fab fa-facebook-f"></i></a>
+                        <a href="https://www.youtube.com/@amazingchurchph" target="_blank"><i class="fab fa-youtube"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+                <div class="contact-form">
+                    <h3>Send Us a Message</h3>
+                    <form id="contactForm">
+                        <div class="form-group"><input type="text" placeholder="Your Name" required></div>
+                        <div class="form-group"><input type="email" placeholder="Your Email" required></div>
+                        <div class="form-group"><input type="text" placeholder="Subject"></div>
+                        <div class="form-group"><textarea placeholder="Your Message" required></textarea></div>
+                        <button type="submit" class="btn btn-primary">Send Message</button>
+                    </form>
+                </div>
+            </div>
+            <div class="map-container">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3861.705385392443!2d121.0205306148407!3d14.554988589833045!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3397c9b6c1c0a0a1%3A0x7c5f3b3e9c3b9f0!2sPasig%2C%20Metro%20Manila!5e0!3m2!1sen!2sph!4v1585937195945!5m2!1sen!2sph" allowfullscreen loading="lazy"></iframe>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-col"><h3>Amazing Church Philippines</h3><p>We win souls and make them disciples of Jesus! Join us every Sunday at 10:00 AM.</p><div class="social-links"><a href="https://www.facebook.com/amazingchurchphilippines/" target="_blank"><i class="fab fa-facebook-f"></i></a><a href="https://www.youtube.com/@amazingchurchph" target="_blank"><i class="fab fa-youtube"></i></a></div></div>
+                <div class="footer-col"><h3>Quick Links</h3><ul><li><a href="#home">Home</a></li><li><a href="#about">About Us</a></li><li><a href="#pastor">Lead Pastor</a></li><li><a href="#sermons">Sermons</a></li></ul></div>
+                <div class="footer-col"><h3>Resources</h3><ul><li><a href="#">Daily Devotional</a></li><li><a href="https://www.youtube.com/@amazingchurchph" target="_blank">Sermon Podcast</a></li><li><a href="#">Prayer Requests</a></li></ul></div>
+                <div class="footer-col"><h3>Support</h3><ul><li><a href="#">Give Online</a></li><li><a href="#">Volunteer</a></li><li><a href="#contact">Contact Us</a></li></ul></div>
+            </div>
+            <div class="copyright"><p>&copy; 2024 Amazing Church Philippines. All rights reserved. | Pasig City, Philippines</p></div>
+        </div>
+    </footer>
+
+    <!-- Messenger Chat Button -->
+    <div class="messenger-chat">
+        <a href="https://m.me/amazingchurchphilippines" target="_blank"><i class="fab fa-facebook-messenger"></i></a>
+    </div>
+
+    <!-- Registration Modal -->
+    <div class="modal" id="registrationModal">
+        <div class="modal-content">
+            <span class="modal-close" id="closeModal">&times;</span>
+            <h2>Register for <span id="eventName"></span></h2>
+            <form id="registrationForm">
+                <div class="form-group"><input type="text" placeholder="Full Name" required></div>
+                <div class="form-group"><input type="email" placeholder="Email Address" required></div>
+                <div class="form-group"><input type="tel" placeholder="Phone Number" required></div>
+                <div class="form-group"><select><option>How did you hear about us?</option><option>Facebook</option><option>Friend/Family</option><option>YouTube</option></select></div>
+                <button type="submit" class="btn btn-primary">Complete Registration</button>
+            </form>
+        </div>
+    </div>
+
+    <!-- Scroll to Top -->
+    <div class="scroll-top" id="scrollTop"><i class="fas fa-arrow-up"></i></div>
+
+    <!-- Main JavaScript -->
+    <script src="script.js"></script>
+</body>
+</html>
